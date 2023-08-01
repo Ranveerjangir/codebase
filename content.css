@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+header span{
+    color: blue;
+
+}
+header a{
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+header ul li{
+    margin: 16px;
+    color:black;
+    padding: 16px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+header ul button{
+    background-color: rgb(98, 98, 214);
+    height: 45px;
+    width: 170px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+header ul button a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(213,230,230);
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.main{
+    width: 1350px;
+    height: 600px;
+    background-color: rgb(76, 76, 209);
+}
+.main h1{
+    color: white;
+    font-size: 40px;
+padding-top:40px ;
+}
+.king1 input{
+    width: 600px;
+    height: 40px;
+    margin-left: 30px;
+}
+.king label{
+    margin-left: 30px;
+    color: aliceblue;
+}
+.king span{
+    color: red;
+}
+.box{
+    display: flex;
+}
+.king2{
+    display: flex;
+}
+.message span{
+    color: red;
+}
+.message label{
+    margin-left: 30px;
+    color: aliceblue;
+}
+.message input{
+    width: 1230px;
+    height: 90px;
+    margin-left: 30px;
+}
+button a{
+    list-style: none;
+    text-decoration: none;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.position{
+    width: 400px;
+    height: 200px;
+    background-color:white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin:150px 0px 0px 90px;
+    position: relative;
+}
+.child img{
+    max-width: 120px;
+    position: absolute;
+    left: 140px;
+    bottom: 140px;
+}
+h1{
+    font-size: 20px;
+    margin-top: 60px;
+}
+p{
+  margin-left: 80px;
+}
+.con{
+    display: flex;
+    margin-left: 180px;
+}
+.name {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.but{
+    text-align: center;
+  border-radius: 10px;
+  margin-bottom: 60px;
+ 
+}
+.but a{
+background-color: blue;
+font-size: 30px;
+border-radius: 20px;
+text-decoration: none;
+
+
+}
+.but a:hover{
+    color:white;
+}
+.bgcolor2{
+    background-color: rgb(44, 44, 211);
+    height: 400px;
+    width: 1350px;
+}
+.bgfoot img{
+    max-width: 200px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.logo1 a{
+    color: aliceblue;
+    font-size: 25px;
+    margin: 5px;
+}
+.logo{
+    margin-left: 100px;
+
+}
+.footer{
+    display: flex;
+    margin-right: 100px;
+}
+.logomain{
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    color: aliceblue;
+    margin: 13px;
+    font-size: 18px;
+    list-style: none;
+}
+.parafoot p{
+color: aliceblue;
+margin-left: 100px;
+font-size: 10px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-block-end: 10px;
+}
+.logo2 a{
+   color: wheat;
+   
+}
+
+
+

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header a{
+    text-decoration: none;
+}
+header span{
+    color: blue;
+}
+header ul{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+header ul li{
+    margin: 16px;
+    color: black;
+    padding: 16px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+header ul button{
+    background-color: blue;
+    height: 40px;
+    width: 160px;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.box1{
+    height: 250px;
+    width: 350px;
+    margin: 30px;
+}
+.box1 img{
+    max-width: 70px;
+    border: 2px solid gray;
+    border-radius: 40px;
+}
+.boxs{
+display: flex;
+margin-left:0px; ;
+margin-top:30px ;
+}
+.services{
+    justify-content: center;
+    text-align: center;
+}
+.box1 h2{
+    font-weight: bold;
+    margin: 10px 0px;
+    font-size: 25px;
+
+}
+.box1 p{
+    font-size: 18px;
+    color: gray;
+
+}
+.bgcolor{
+    height: 800px;
+    width: auto;
+    background-color: rgb(168, 95, 236);
+    text-align: center;
+}
+.project h3{
+    font-size: 35px;
+    margin: 20px;
+}
+.project button{
+    height: 40px;
+    width: 250px;
+    background-color:rgb(41, 41, 172) ;
+    border-radius: 20px;
+    margin: 30px 0px;
+    
+}
+.project{
+    text-align: center;
+   
+}
+.project button a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.project button a:hover{
+    color: rgb(52, 52, 221);
+}
+.bgcolor2{
+    background-color: rgb(44, 44, 211);
+    height: 400px;
+    width: 1350px;
+}
+.bgfoot img{
+    max-width: 200px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.logo1 a{
+    color: aliceblue;
+    font-size: 25px;
+    margin: 5px;
+}
+.logo{
+    margin-left: 100px;
+
+}
+.footer{
+    display: flex;
+    margin-right: 100px;
+}
+.logomain{
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    color: aliceblue;
+    margin: 13px;
+    font-size: 18px;
+    list-style: none;
+}
+.parafoot p{
+color: aliceblue;
+margin-left: 100px;
+font-size: 10px;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-block-end: 10px;
+}
+.logo2 a{
+   color: wheat;
+   
+}
